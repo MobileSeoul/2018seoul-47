@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "578966727452",
+    "firebase_url": "https://seoulapp-79700.firebaseio.com",
+    "project_id": "seoulapp-79700",
+    "storage_bucket": "seoulapp-79700.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:578966727452:android:44989d638eb8f6fa",
+        "android_client_info": {
+          "package_name": "com.example.daewon.a2018_seoulapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "578966727452-vc4eptdmjqrh1gcfru3kaue9g4p0vutb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.daewon.a2018_seoulapp",
+            "certificate_hash": "4673d1c4148d61c6e9e06944bbd15b9e4b2e0d3c"
+          }
+        },
+        {
+          "client_id": "578966727452-20rmvgcbifvleaku4e08lh5kes35s8o1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPlp1hQ6kpNl3vFW0VOMIZ4a_t86qVaAE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "578966727452-20rmvgcbifvleaku4e08lh5kes35s8o1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activitys.MyPageActivity">
+
+
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:text="마이 페이지"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#8843FF" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="30dp"
+            app:srcCompat="@drawable/mypage_people" />
+
+        <TextView
+            android:id="@+id/textviewUserEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:text="" />
+
+        <ImageView
+            android:layout_marginTop="15dp"
+            android:id="@+id/imageView7"
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            app:srcCompat="@drawable/mypage_line" />
+
+        <ImageButton
+            android:id="@+id/EnterNewGallery"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/mypage_new_gal"
+            android:text="새로운 갤러리 등록하기" />
+
+        <ImageButton
+            android:id="@+id/MyGallery_info_button"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/mypage_my_gal"
+            android:text="나의 갤러리 관리" />
+
+    <ImageButton
+        android:id="@+id/buttonLogout"
+        android:layout_width="110dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/mypage_logout"
+        android:text="로그아웃" />
+
+    <ImageButton
+        android:id="@+id/textviewDelete"
+        android:layout_width="110dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:layout_margin="16dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/mypage_signout"
+        android:text="회원탈퇴 합니다."
+        android:textColor="@color/colorAccent" />
+    </LinearLayout>
